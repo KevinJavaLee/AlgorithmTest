@@ -1,9 +1,5 @@
 package com.kevin.Code.LinkNode;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Stack;
-
 /**
  * @author Vinlee xiao
  * @Description: 剑指 Offer 22. 链表中倒数第k个节点 使用双指针

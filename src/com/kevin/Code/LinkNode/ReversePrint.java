@@ -1,8 +1,6 @@
 package com.kevin.Code.LinkNode;
 
 
-import com.kevin.Code.LinkNode.ListNode;
-
 import java.util.Arrays;
 
 /**

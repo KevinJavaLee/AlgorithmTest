@@ -1,7 +1,5 @@
 package com.kevin.Code.LinkNode;
 
-import java.util.List;
-
 /**
  * @author Vinlee xiao
  * @Description: 剑指 Offer 18. 删除链表的节点
