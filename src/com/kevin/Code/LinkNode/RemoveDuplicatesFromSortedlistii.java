@@ -2,7 +2,7 @@ package com.kevin.Code.LinkNode;
 
 /**
  * @author Vinlee xiao
- * @Description: Leetcode82. 删除排序链表中的重复元素 II
+ * @Description: Leetcode82. 删除排序链表中的重复元素 II 简单题型
  * @create 2021-04-14 21:15
  * @project LeetCode
  * @Version 1.0
