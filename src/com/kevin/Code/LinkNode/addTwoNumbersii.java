@@ -55,7 +55,7 @@ public class addTwoNumbersii {
 
         ListNode move1 = l1;
         ListNode move2 = l2;
-        ListNode dummy = new ListNode(0, null);
+        ListNode dummy = null;
         ListNode move = dummy;
         while (move1 != null && move2 != null) {
             stack1.addLast(move1.val);
@@ -85,15 +85,7 @@ public class addTwoNumbersii {
             reminder = (sum + carry) %10;
             carry = (sum + carry)/10;
             ListNode node = new ListNode(reminder);
-
-            if (flag){
-                flag = false;
-                node.next = null;
-
-            }
-            else {
-                node.next = move;
-            }
+            node.next = move;
             move = node;
 
         }
@@ -105,14 +97,7 @@ public class addTwoNumbersii {
             carry = ( sum+ carry)/10;
 
             ListNode node = new ListNode(reminder);
-
-            if (flag){
-                flag = false;
-                node.next = null;
-            }
-            else {
-                node.next = move;
-            }
+            node.next = move;
             move = node;
         }
 
@@ -121,13 +106,7 @@ public class addTwoNumbersii {
             reminder = (sum + carry) %10;
             carry = ( sum+ carry)/10;
             ListNode node = new ListNode(reminder);
-            if (flag){
-                flag = false;
-                node.next = null;
-            }
-            else {
-                node.next = move;
-            }
+            node.next = move;
             move = node;
 
         }
@@ -137,8 +116,6 @@ public class addTwoNumbersii {
             node.next = move;
             move = node;
         }
-
-//        dummy =null;
         return move;
     }
 }
