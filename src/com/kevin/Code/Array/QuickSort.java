@@ -13,10 +13,10 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] nums = new int[]{5,1,1,2,0,0};
-        sortArray(nums);
+        int[] sortArr = sortArray(nums);
 
-        for (int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i]);
+        for (int i = 0; i < sortArr.length; i++) {
+            System.out.println(sortArr[i]);
         }
 //        Arrays.toString(nums);
     }
@@ -118,7 +118,7 @@ public class QuickSort {
      * @param high
      */
     public static void quickSort(int[] arr, int low, int high) {
-        if (low <= high) {
+        if (low >= high) {
             return;
         }
 
