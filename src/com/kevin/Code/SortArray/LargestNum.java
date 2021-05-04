@@ -1,6 +1,4 @@
-package com.kevin.Code.Array;
-
-import scala.math.Ordering;
+package com.kevin.Code.SortArray;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

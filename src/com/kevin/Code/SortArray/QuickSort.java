@@ -1,6 +1,4 @@
-package com.kevin.Code.Array;
-
-import java.util.Arrays;
+package com.kevin.Code.SortArray;
 
 /**
  * @Project LeetCode

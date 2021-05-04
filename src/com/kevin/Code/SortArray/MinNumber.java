@@ -1,4 +1,4 @@
-package com.kevin.Code.Array;
+package com.kevin.Code.SortArray;
 
 import java.util.Arrays;
 
