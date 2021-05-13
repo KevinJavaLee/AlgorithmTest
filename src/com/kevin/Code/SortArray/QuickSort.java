@@ -28,7 +28,7 @@ public class QuickSort {
 
         int len = nums.length;
 //        Sort(nums,0,len-1);
-          quickSort(nums,0,len-1);
+          Sort(nums,0,len-1);
 
         return nums;
     }
