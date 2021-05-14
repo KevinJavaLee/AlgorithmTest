@@ -18,9 +18,6 @@ public class ThreeNumSum {
     public static void main(String[] args) {
 
         int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
-//        for (int i = 0; i < nums.length; i++) {
-//            System.out.print(nums[i] + " ");
-//        }
         List<List<Integer>> list = threeSum(nums);
         System.out.println(list.size());
         for (List<Integer> integers : list) {
@@ -30,8 +27,6 @@ public class ThreeNumSum {
             }
             System.out.println();
         }
-
-
     }
 
     /**
@@ -92,7 +87,6 @@ public class ThreeNumSum {
         return result;
 
     }
-
 
     /**
      * 快速排序
