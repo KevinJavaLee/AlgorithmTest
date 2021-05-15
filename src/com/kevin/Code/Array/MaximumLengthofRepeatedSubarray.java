@@ -87,7 +87,7 @@ public class MaximumLengthofRepeatedSubarray {
     }
 
     /**
-     * 改进2：滑动窗口
+     * 改进2：滑动窗口  解法
      * @param nums1
      * @param nums2
      * @return
