@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * @Project LeetCode
  * @ClassName MaximumSubarray
- * @Description Leetcode 53. 最大子序和 高频
+ * @Description Leetcode 53. 最大子序和 高频 动态规划
  * @Author Vinlee Xiao
  * @Date 2021/05/11/20:53
  * @Version 1.0

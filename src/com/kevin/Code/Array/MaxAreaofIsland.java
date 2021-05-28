@@ -68,7 +68,7 @@ public class MaxAreaofIsland {
 
         grid[i][j] = 0;
 
-        //从3个方向开始递归
+        //从4个方向开始递归
 
         return 1+dfs(grid,i+1,j)+dfs(grid,i,j+1)+dfs(grid,i,j-1)+dfs(grid,i-1,j);
     }
