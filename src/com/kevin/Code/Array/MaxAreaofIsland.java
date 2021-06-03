@@ -3,7 +3,7 @@ package com.kevin.Code.Array;
 /**
  * @Project LeetCode
  * @ClassName MaxAreaofIsland
- * @Description Leetcode 695岛屿的最大面积 深度优先搜索  回溯法 经典题目 中等难度
+ * @Description Leetcode 695 岛屿的最大面积 深度优先搜索  回溯法 经典题目 中等难度
  * @Author Vinlee Xiao
  * @Date 2021/05/22/11:59
  * @Version 1.0

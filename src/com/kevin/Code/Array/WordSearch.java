@@ -79,8 +79,7 @@ public class WordSearch {
         }
         boolean flag = false;
         if (board[startX][startY] == word.charAt(index)) {
-//            System.out.println("index:" + index);
-//            System.out.println(startX+":"+startY+board[startX][startY]);
+
             visited[startX][startY] = true;
             flag = dfs(board, visited, startX + 1, startY, word, index + 1) ||
                     dfs(board, visited, startX, startY + 1, word, index + 1) ||
