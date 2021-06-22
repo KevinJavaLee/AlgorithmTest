@@ -50,8 +50,6 @@ public class FlattenBinaryTreeToLinkedList {
             move = node;
         }
 
-
-
     }
 
     /**
@@ -88,9 +86,7 @@ public class FlattenBinaryTreeToLinkedList {
      * @param root
      */
     public static void helper(TreeNode root) {
-        if (root == null) {
-            return;
-        }
+
 
         while (root != null) {
             //如果当前结点的左子树为空
@@ -109,5 +105,35 @@ public class FlattenBinaryTreeToLinkedList {
                 root = root.right;
             }
         }
+    }
+
+
+    public static void help(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        help(root.left);
+        help(root.right);
+
+        if (root.left != null) {
+
+            TreeNode pre = root.left;
+
+            //找到左子树的最右结点
+            while (pre.right != null) {
+                pre = pre.right;
+            }
+
+            //左子树的最右结点连接到当前结点的右子结点
+            pre.right = root.right;
+
+            //当前结点的右子节点置为当前结点的左子结点
+            root.right = root.left;
+
+            root.left = null;
+
+        }
+        root = root.right;
     }
 }
