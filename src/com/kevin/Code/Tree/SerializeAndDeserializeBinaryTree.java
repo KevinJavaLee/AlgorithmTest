@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * @author Vinlee Xiao
  * @Classname SerializeAndDeserializeBinaryTree
- * @Description 297. 二叉树的序列化与反序列化 剑指Offer 37 困难 没啥思路
+ * @Description Leetcode 297. 二叉树的序列化与反序列化 剑指Offer 37 困难 没啥思路
  * @Date 2021/8/13 15:13
  * @Version 1.0
  */
