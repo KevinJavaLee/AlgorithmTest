@@ -1,5 +1,7 @@
 package com.kevin.Code.String;
 
+import java.util.HashMap;
+
 /**
  * @author Vinlee Xiao
  * @Classname ReplaceSpace
@@ -9,6 +11,10 @@ package com.kevin.Code.String;
  */
 public class ReplaceSpace {
     public static void main(String[] args) {
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+
+        hashMap.put((char) 1, hashMap.getOrDefault(1, 0) + 1);
+
 
     }
 
