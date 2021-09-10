@@ -3,7 +3,7 @@ package com.kevin.Code.Array;
 /**
  * @author Vinlee Xiao
  * @Classname NthDigit
- * @Description 剑指Offer 44   Leetcode 400. 第 N 位数字 中等难度 完全没有半点思路
+ * @Description 剑指 Offer 44   Leetcode 400. 第 N 位数字 中等难度 完全没有半点思路
  * @Date 2021/9/10 15:27
  * @Version 1.0
  */
