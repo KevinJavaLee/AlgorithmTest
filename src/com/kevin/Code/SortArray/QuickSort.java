@@ -10,7 +10,7 @@ package com.kevin.Code.SortArray;
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int[] nums = new int[]{5,1,1,2,0,0};
+        int[] nums = new int[]{3, 2, 1};
         int[] sortArr = sortArray(nums);
 
         for (int i = 0; i < sortArr.length; i++) {

@@ -40,8 +40,29 @@ public class MajorityElement {
             }
         }
 
+        return 0;
+    }
+
+    /**
+     * 根据数据的特点进行处理
+     * 时间复杂度O(N)
+     *
+     * @param nums
+     * @return
+     */
+    public static int majorityElement1(int[] nums) {
+
+        return 0;
+    }
 
 
+    /**
+     * 根据快速分区的思想进行处理：
+     *
+     * @param nums
+     * @return
+     */
+    public static int majorityElement2(int[] nums) {
 
         return 0;
     }
